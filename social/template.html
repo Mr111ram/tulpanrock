@@ -1,8 +1,3 @@
----
-permalink: ./social/template.html
-permalinkBypassOutputDir: true
-eleventyExcludeFromCollections: true
----
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -13,7 +8,7 @@ eleventyExcludeFromCollections: true
       rel="stylesheet"
     />
     <style>
-      {% raw %}{{ style }}{% endraw %} 
+      {{ style }} 
     </style>
   </head>
   <body>
@@ -21,7 +16,7 @@ eleventyExcludeFromCollections: true
       <div>
         <h1></h1>
         <p>
-          <em>Published on</em>&nbsp;&nbsp;<strong>{{ meta.siteName }}</strong>
+          <em>Published on</em>&nbsp;&nbsp;<strong>Тульпы и Рок-н-ролл</strong>
         </p>
       </div>
     </header>
